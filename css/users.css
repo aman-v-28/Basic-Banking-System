@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+}
+
+.container{
+    padding-top: 20px;
+    text-align: center;
+}
+.button {
+    background-color: #94928e;
+    border: none;
+    color: #000000;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: #646362;
+    color: white;
+}
+
+.button:active{
+    background-color: #1d88c6;
+}
+
+.row{
+    color:#4e0541;
+    font-size: 20px;
+}
+
+h2{
+    font-family: sans-serif;
+    color: #41050f;
+    font-weight: bold;
+}
+
+th{
+    color: #4d1347;
+}
+
+td{
+    color: #070949;
+}
+
+@media only screen and (max-width: 768px){
+    .row{font-size: 11px;}
+    .button{font-size: 11px; padding: 5px 10px;}
+}
